@@ -30,7 +30,7 @@ function validate() {
     var is_validated = false;
   }
   else {
-    fullname_input.classList.remove('is-invalid'); 
+    fullname_input.classList.add('is-valid'); 
   }
 
   // Validate email
@@ -41,7 +41,7 @@ function validate() {
     var is_validated = false;
   }
   else {
-    email_input.classList.remove('is-invalid'); 
+    email_input.classList.add('is-valid'); 
   }
 
   // validate phone
@@ -52,7 +52,7 @@ function validate() {
     var is_validated = false;
   }
   else {
-    phone_input.classList.remove('is-invalid'); 
+    phone_input.classList.add('is-valid'); 
   }
 
    // validate password
@@ -63,7 +63,7 @@ function validate() {
     var is_validated = false;
   }
   else {
-    password_input.classList.remove('is-invalid'); 
+    password_input.classList.add('is-valid'); 
   }
   
   // save record to the database
